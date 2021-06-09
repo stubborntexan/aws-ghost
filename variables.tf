@@ -38,5 +38,5 @@ variable "domain_name" {
 
 # Bastion/jumpbox CIDR range with /32 expected for the default security group
 variable "bastion_cidr" {
-  default = "169.254.169.254/32"
+  default = "169.254.169.253/32"
 }
