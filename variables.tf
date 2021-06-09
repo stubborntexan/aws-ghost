@@ -28,13 +28,15 @@ variable "cloudfront_ssl_acm_arn" {
 # requests are welcome.
 
 variable "glue_record" {
+  default = ""
 }
 
 # Domain for deployment
 variable "domain_name" {
-  default = "phillhocking.com"
+  default = "stubborntexan.com"
 }
 
 # Bastion/jumpbox CIDR range with /32 expected for the default security group
 variable "bastion_cidr" {
+  default = "169.254.169.254/32"
 }
