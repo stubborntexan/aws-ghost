@@ -4,7 +4,7 @@ terraform {
     organization = "stubborntexan"
 
     workspaces {
-      name = "stubborntexan.com-dev"
+      name = "aws-ghost-dev"
     }
   }
 }
